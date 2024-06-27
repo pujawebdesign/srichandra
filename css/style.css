@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.header-right .navbar{
+    background-color: inherit !important;
+    
+}
+
+.header-right .navbar-nav .nav-item a{
+    color: #fff;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.header-right .nav-link.active{
+    color: #fff;
+   
+}
+
+.btn-primary{
+    background-color: #A259FF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.btn-primary:hover{
+    background-color: #A259FF;  
+}
+
+.header-right .login a .fa-user{
+    margin-right:10px;
+}
+
+
+.bannertext .header-right .login a .fa-user{
+    margin-right:10px;
+}
+
+.bannerinnertext h2{
+    width:33%;
+}
+
+.bannerinnertext{
+    margin-bottom: 20px;
+    
+}
+
+.bannertext .login a .fa-paper-plane{
+    margin-right:10px;
+}
+
+
+
+
+.banner .login{
+    margin-bottom: 20px;
+}
+
+.spaceimgtext  img{
+    margin-right: 10px;
+}
+
+.spacetextbackground{
+    background-color: #3B3B3B;
+    border-radius:  0px 0px 10px 10px;
+    padding: 5px 10px;
+} 
+
+
+
+.spacetext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.spacetextbackground .animakid{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.banner{
+    margin-bottom: 60px;
+}
+
+.bannerinnertext h2 strong{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+      font-size: 28px;
+      color: #FFFFFF;
+}
+.bannerinnertext h2 span{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner .bannertext .discover{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 67px;
+    color: #FFFFFF;
+}
+
+.banner .bannertext p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.collection{
+    margin-bottom: 50px;
+}
+.collectiontext{
+    margin-bottom: 30px;
+}
+   
+.collectiontext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+
+.collectiontext h3{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.collectionimage{
+    margin-bottom: 20px;
+}
+
+
+.collectionimagebackground .cat{
+    margin-right: 2%;
+    width: 32%;
+}
+.collectionimagebackground .cat:last-child{
+    margin-right: 0;
+}
+
+.collectionimage1{
+    margin-bottom: 20px;
+}
+
+.dsgntext img{
+    margin-right: 10px;
+    width: 24px;
+  height: 24px;
+}
+
+.createtext2 h2{
+    margin-bottom: 0;
+}
+.collectionimage1 h2{
+    padding-top: 35px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #A259FF;
+    border-radius: 20px 20px 20px 20px;
+    height: 100%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.creators .login a .fa-paper-plane{
+    margin-right:10px;
+}
+
+.creators .createtext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+    
+}
+
+.creators .createtext p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    
+}
+
+
+
+
+.creatorbackground{
+    position: relative;
+}
+
+.creatorbackground .number{
+    position: absolute;
+    left: 20px;
+    top:20px;
+}
+
+
+.creators .createtext2 h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.createimage img{
+    margin-top: 16px;
+}
+.createimage{
+    margin-bottom: 20px;
+}
+
+.createtext2 p{
+    margin-bottom: 20px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.createtext2 p span{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #858584;
+}
+.animals .animal{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.animals .animal2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 88%;
+}
+
+
+.creators .login a{
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 30px;
+    border: 1px solid #A259FF;
+    color: #A259FF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+
+
+}
+
+.artbackground .arttext{
+    background-color: #2B2B2B;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+    
+
+.creatorbackground {
+    background: #3B3B3B;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+  margin-bottom: 20px;
+  }
+
+  .creators .row{
+    margin-bottom: 30px;
+  }
+
+  .header .container{
+    max-width: 1180px;
+  }
+
+  .browseheading h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+
+  .creators{
+    margin-bottom: 69px;
+  }
+
+  .arttext{
+    background-color: ;
+  }
+
+  .arttext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+
+  .browse{
+    margin-bottom: 30px;
+  }
+
+  .creators .login .eye{
+ background-color: black;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 30px;
+  border: 1px solid #A259FF;
+  color: #A259FF;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px 33px;
+  }
+
+  .creators .login img{
+    margin-right: 10px;
+  }
+
+  .galaxybackground .details{
+    background-color:#3B3B3B;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 15px;
+  }
+
+  .galaxytext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+  }
+
+  .galaxytext h3{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+  }
+
+  .galaxytext img{
+    margin-right: 10px;
+  }
+
+  .galaxytext2 .price{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #858584;
+    font-size: 12px;
+  }
+
+  .galaxytext2 .rs{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  .galaxytext3 .price{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #858584;
+    font-size: 12px;
+  }
+
+  .galaxytext3 .rs{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  .worktext{
+    margin-bottom: 20px;
+  }
+
+  .worktext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+  }
+
+  .worktext h3{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+  }
+
+  .nfthighlight{
+    margin-bottom: 30PX;
+  }
+
+  .worksbackground{
+    background-color: #3B3B3B;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+  }
+
+  .workstext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+  }
+
+  .workstext p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  .works{
+    margin-bottom: 100px;
+  }
+
+  .digesttext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+  }
+
+  .digesttext P{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .email{
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    width:100%;
+    height: 64px;
+  }
+
+  .email .email2 {
+    text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2B2B2B;
+  margin-right: 20px;
+  width: 100%;
+  padding: 22px 15px;
+   
+  }
+
+  .email .subscribe {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #A259FF;
+    border-radius: 20px 20px 20px 20px;
+    width:100%;
+    height: 64px;
+    text-align: center;
+    padding: 20px 14px;
+  }
+
+  .email .subscribe img{
+    margin-right: 10px;
+  }
+
+  .digestbackground{
+    background-color: #3B3B3B;
+    border-radius: 10px 10px 10px 10px;
+    padding: 61px 65px;
+  }
+
+  .logotext h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+
+  .exploretext h2{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 22px;
+  }
+
+  .explorepara p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+
+  .exploretext{
+    margin-bottom: 20px;
+  }
+
+  .logoicons p{
+    margin-right: 10px;
+  }
+
+  .digest{
+    margin-bottom: 50px;
+  }
+
+  .footer{
+    background-color:#3B3B3B;
+    padding: 50px 0 20px;
+  }
+
+  .footer .logo{
+    margin-bottom: 20px;
+  }
+
+  .footer .row{
+    padding: 0 15px;
+    border-bottom: 1px solid #858584;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .copyright p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+
+ /* .email .login .btn-primary{
+    background-color: #A259FF;
+    font-size: 16px;
+    font-weight: 600;
+     padding: 5px 10px; 
+    border-radius: 20px 20px 20px 20px;
+} */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .workstext p{
+        font-size: 15px;
+    }
+    .works {
+        margin-bottom: 50px;
+      }
+      .digesttext P{
+        font-size: 18px;
+      } 
+      .email .email2{
+        margin-right: 5px;
+        padding: 22px 6px;
+      }
+      .digestbackground{
+        padding: 40px;
+      }
+      .creators {
+        margin-bottom: 30px;
+      }
+      .banner .bannertext .discover{
+        font-size: 55px;
+      }
+      .banner {
+        margin-bottom: 40px;
+      }
+      .createtext2 p span{
+        display: block;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .header .navbar-toggler{
+        padding: 0;
+      }
+      .header .navbar-toggler .navbar-toggler-icon{
+        filter: brightness(0) invert(1);
+      } 
+      .banner .bannertext .discover{
+        font-size: 30px;;
+      }
+      .banner .bannertext br{
+        display: none;
+      }
+      .collectionimage1 h2{
+        padding-top: 25px;
+        font-size: 16px;
+      }
+      .createtext2 p span{
+        display: block;
+      }
+      .creators {
+        margin-bottom: 30px;
+      }
+      .arttext h2{
+        font-size: 16px;
+        text-align: center;
+      }
+      .creators .createtext h2{
+        font-size: 30px;
+      }
+      .workstext p{
+        font-size: 14px;
+      }
+      .works {
+        margin-bottom: 50px;
+      }
+      .digestbackground{
+        padding: 30px;
+      }
+      .digesttext h2{
+        font-size: 24px;
+      }
+      .digesttext h2 br{
+        display: none;
+      }
+      .digesttext P{
+        font-size: 16px;
+      }
+      .email .email2 {
+        margin-right: 5px;
+        padding: 22px 10px;
+        font-size: 12px;
+      }
+      .email .subscribe{
+        padding: 20px 5px;
+        font-size: 14px;
+        width: 75%;
+      }
+      .logotext h2{
+        font-size: 15px;
+      }
+      .logotext h2 br{
+        display: none;
+      }
+      .banner {
+        margin-bottom: 40px;
+      }
+      .header .navbar-collapse{
+        position: absolute;
+        right: 15px;
+        top: 45px;
+        background: rgb(34, 34, 34);
+        width: 180px;
+      }
+}
+
+@media only screen and (max-width: 767px){
+    .artimage img{
+        width: 100%;
+    }
+    .galaxybackground{
+        margin-bottom: 20px;
+    }
+    .galaxyimage img{
+        width: 100%;
+    }
+    .worksbackground{
+        margin-bottom: 20px;
+    }
+    .digestbackground{
+        padding: 20px;
+    }
+    .digesttext h2{
+        font-size: 30px;
+    }
+    .digesttext P{
+        font-size: 15px;
+    }
+    .email{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .email .subscribe{
+        margin-bottom: 0;
+        border-radius: 0 0 20px 20px;
+        padding: 12px;
+        height: auto;
+    }
+    .email .email2{
+        margin: 0;
+        padding: 15px;
+        text-align: center; 
+    }
+    .copyright p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .logoicons{
+        margin-bottom: 15px;
+    }
+    .explorepara{
+        margin-bottom: 25px;
+    }
+    .footer{
+        padding: 40px 0 15px;
+    }
+    .works {
+        margin-bottom: 20px;
+    }
+    .creators {
+        margin-bottom: 20px;
+      }
+      .worktext h2, .creators .createtext h2, .browseheading h2, .collectiontext h2{
+        font-size: 30px;
+      }
+      .browse {
+        margin-bottom: 20px;
+      }
+      .creators .login .eye, .creators .login a{
+        margin-top: 10px;
+        display: inline-block;
+      }
+      .creators .col-12:last-child .creatorbackground{
+        margin-bottom: 0;
+      }
+      .collection {
+        margin-bottom: 20px;
+      }
+      .banner {
+        margin-bottom: 30px;
+      }
+      .banner .bannertext .discover{
+        font-size: 36px;
+      }
+      .banner .bannertext br{
+        display: none;
+      }
+      .banner .bannertext p br{
+        display: none;
+      }
+      .header .btn-primary {
+        background-color: #A259FF;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 20px 20px 20px 20px;
+      }
+      .header .logo img{
+        max-width: 170px;
+      }
+      .header .col-md-4{
+        width: 40%;
+      }
+      .header .col-md-8{
+        width: 60%;
+      }
+      .header .navbar-toggler{
+        padding: 0;
+      }
+      .header .navbar-toggler .navbar-toggler-icon{
+        filter: brightness(0) invert(1);
+      } 
+      .header .navbar-collapse{
+        position: absolute;
+        right: 15px;
+        top: 45px;
+        background: rgb(34, 34, 34);
+        width: 180px;
+      }
+      .header {
+        margin-bottom: 10px;
+      }
+      .collectionimage img{
+        width: 100%;
+      }
+      .collectionimagebackground .cat img{
+        width: 100%;
+      }
+      .bannerinnertext h2 strong{
+        display: block;
+      }
+      .bannerimage img{
+        width: 100%;
+      }
+      .digestimage img{
+        width: 100%;
+      }
+}
